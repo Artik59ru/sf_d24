@@ -1,0 +1,85 @@
+😄  minikube v1.26.0 на Ubuntu 20.04
+✨  Automatically selected the docker driver. Other choices: ssh, none
+📌  Using Docker driver with root privileges
+👍  Запускается control plane узел minikube в кластере minikube
+🚜  Скачивается базовый образ ...
+🔥  Creating docker container (CPUs=2, Memory=2200MB) ...
+🐳  Подготавливается Kubernetes v1.24.1 на Docker 20.10.17 ...
+    ▪ Generating certificates and keys ...
+    ▪ Booting up control plane ...
+    ▪ Configuring RBAC rules ...
+🔗  Configuring CNI (Container Networking Interface) ...
+🔎  Компоненты Kubernetes проверяются ...
+    ▪ Используется образ gcr.io/k8s-minikube/storage-provisioner:v5
+🌟  Включенные дополнения: storage-provisioner, default-storageclass
+
+👍  Starting worker node minikube-m02 in cluster minikube
+🚜  Скачивается базовый образ ...
+🔥  Creating docker container (CPUs=2, Memory=2200MB) ...
+🌐  Found network options:
+    ▪ NO_PROXY=192.168.49.2
+🐳  Подготавливается Kubernetes v1.24.1 на Docker 20.10.17 ...
+    ▪ env NO_PROXY=192.168.49.2
+🔎  Компоненты Kubernetes проверяются ...
+
+👍  Starting worker node minikube-m03 in cluster minikube
+🚜  Скачивается базовый образ ...
+🔥  Creating docker container (CPUs=2, Memory=2200MB) ...
+🌐  Found network options:
+    ▪ NO_PROXY=192.168.49.2,192.168.49.3
+🐳  Подготавливается Kubernetes v1.24.1 на Docker 20.10.17 ...
+    ▪ env NO_PROXY=192.168.49.2
+    ▪ env NO_PROXY=192.168.49.2,192.168.49.3
+🔎  Компоненты Kubernetes проверяются ...
+
+👍  Starting worker node minikube-m04 in cluster minikube
+🚜  Скачивается базовый образ ...
+🔥  Creating docker container (CPUs=2, Memory=2200MB) ...
+🌐  Found network options:
+    ▪ NO_PROXY=192.168.49.2,192.168.49.3,192.168.49.4
+🐳  Подготавливается Kubernetes v1.24.1 на Docker 20.10.17 ...
+    ▪ env NO_PROXY=192.168.49.2
+    ▪ env NO_PROXY=192.168.49.2,192.168.49.3
+    ▪ env NO_PROXY=192.168.49.2,192.168.49.3,192.168.49.4
+🔎  Компоненты Kubernetes проверяются ...
+
+👍  Starting worker node minikube-m05 in cluster minikube
+🚜  Скачивается базовый образ ...
+🔥  Creating docker container (CPUs=2, Memory=2200MB) ...
+🌐  Found network options:
+    ▪ NO_PROXY=192.168.49.2,192.168.49.3,192.168.49.4,192.168.49.5
+🐳  Подготавливается Kubernetes v1.24.1 на Docker 20.10.17 ...
+    ▪ env NO_PROXY=192.168.49.2
+    ▪ env NO_PROXY=192.168.49.2,192.168.49.3
+    ▪ env NO_PROXY=192.168.49.2,192.168.49.3,192.168.49.4
+    ▪ env NO_PROXY=192.168.49.2,192.168.49.3,192.168.49.4,192.168.49.5
+🔎  Компоненты Kubernetes проверяются ...
+💡  kubectl not found. If you need it, try: 'minikube kubectl -- get pods -A'
+🏄  Готово! kubectl настроен для использования кластера "minikube" и "default" пространства имён по умолчанию
+minikube
+type: Control Plane
+host: Running
+kubelet: Running
+apiserver: Running
+kubeconfig: Configured
+
+minikube-m02
+type: Worker
+host: Running
+kubelet: Running
+
+minikube-m03
+type: Worker
+host: Running
+kubelet: Running
+
+minikube-m04
+type: Worker
+host: Running
+kubelet: Running
+
+minikube-m05
+type: Worker
+host: Running
+kubelet: Running
+
